@@ -8,8 +8,8 @@ def health():
     return data
 
 @app.get("/")
-def root():
-    return {"message": "Hello"}
+def root()
+    return {"message": "Hello"
 
 if __name__ == "__main__":
     import uvicorn
